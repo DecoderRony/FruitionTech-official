@@ -142,6 +142,7 @@ body{
 
 .team-section-cards{
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .team-section-cards .card{
@@ -187,6 +188,7 @@ body{
 
 .service-main{
     background: darkgrey url(../images/servicesbg.jpg) center center fixed;
+    margin-top: -40px;
 }
 
 .service-typo .text-muted{
@@ -212,6 +214,7 @@ body{
 
 .service-row2{
     padding-top: 40px;
+    padding-bottom: 80px;
 }
 
 .card-text .text-muted{
@@ -221,6 +224,101 @@ body{
 .service-body{
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+/*------------Foooter section---------*/
+.footer-lg{
+    background-color: #222;
+    bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0.01em solid grey;
+}
+
+
+.footer-lg .jumbotron{
+    background: transparent;
+    margin-bottom: 0;
+}
+
+.footer-logo a{
+    color: white!important;
+}
+
+.footer-logo a:hover{
+    color: darkorange !important;
+}
+
+.footer-lg h3{
+    color: white;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.footer-lg h4{
+    color: white;
+    font-weight: 500;
+}
+
+.footer-lg .links{
+    padding-left: 70px;
+}
+
+.footer-link{
+    list-style: none;
+    line-height: 2;
+    padding-top: 10px;
+}
+
+.footer-link a:hover{
+    text-decoration: none;
+    color: darkorange !important;
+}
+
+.footer-contact{
+    text-align: left;
+    margin-left: -40px;
+}
+
+
+.copyright-bar{
+    background-color:  #222;
+}
+
+.cpy-foot{
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 45px;
+}
+
+.cpy-foot h6{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.scroller a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-terms {
+    color: grey;
+    font-weight: 400;
+    line-height: 0.5;
+}
+
+.footer-terms a{
+    color: grey;
+    
+}
+
+.footer-terms a:hover{
+    color: white;
 }
 
 
@@ -276,10 +374,45 @@ body{
 .card-text .text-muted{
     font-size: 15px;
 }
+    
+/*----------Footer style---------*/
+
+    
+.footer-lg h3{
+    padding-left: 0px;
+    font-size: 15px;
+}
+    
+.footer-lg h4{
+    font-size: 20px;
+}
+    
+.footer-lg .links{
+    padding-left: 15px;
+    padding-top: 20px;
+}
+    
+.cpy-foot h6{
+        text-align: center;
+        font-size: 15px;
+        font-weight: 100;
+    }
+
+    .cpy-foot .footer-terms{
+        text-align: center;
+    }
+    
+.cpy-foot{
+    padding-left: 20px;
+}
+
+.scroller a{
+    justify-content: center;    
+}
 
 }
 
-@media all and (min-width:601px) and (max-width:768px){
+@media all and (min-width:601px) and (max-width:767px){
      .navbar-brand{
     font-size: 25px;
     padding-left: 0px;
@@ -322,24 +455,58 @@ body{
  .service-padding{
     padding-top: 40px;
 }
+
+/*----------Footerstyle---------*/
+.footer-lg h3{
+    padding-left: 0px;
+    font-size: 16px;
+}
+    
+.footer-lg .links{
+    padding-left: 15px;
+    padding-top: 40px;
     
 }
+    
+.footer-lg .links h4{
+        font-size: 18px;
+    }
+    
+.cpy-foot h6{
+    text-align: center;
+    font-size: 15px;
+}
 
-@media all and (min-width:769px) and (max-width:991px){
-     .navbar-brand{
+.footer-terms{
+    font-size: 12px;
+    text-align: center;
+}
+    
+.scroller a{
+    justify-content: center;    
+}
+
+}
+
+@media all and (min-width:768px) and (max-width:991px){
+ .navbar-brand{
     padding-left: 0px;
 }
     
-    #navbarNav{
+#navbarNav{
         background-color: black;
         color: white;
         width: 100%;
-    }
+}
     
-    .navbar-nav li{
+.navbar-nav li{
         padding-left: 20px;
-    }
+}
     
+.footer-lg h3{
+    padding-left: 0px;
+    font-size: 16px;
+}
    
     
 }
