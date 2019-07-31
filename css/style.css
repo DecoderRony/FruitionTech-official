@@ -169,6 +169,10 @@ body{
     text-align: center;
 }
 
+#row-2{
+    margin-top: -30px;
+}
+
 
 
 /*SERVICES SECTION*/
@@ -365,8 +369,42 @@ body{
     padding-top:50px; 
 }
     
+    .about-section .display-4{
+        font-size: 32px;
+    }
 
+    .about-section p{
+        font-size: 16px;
+    }
 
+    .about-section .text-muted{
+        font-size: 16px;
+    }
+    
+    #row-2{
+    margin-top: -10px;
+}
+    
+    .service-main .display-4{
+        font-size: 32px;
+    }
+    
+    .service-main .text-muted{
+        font-size: 16px;
+    }
+    
+    .service-main .card-title{
+        font-size: 20px;
+    }
+    
+    .service-main .card-text .text-muted{
+        font-size: 16px;
+    }
+    
+    .service-main .card-text{
+        font-size: 14px;
+    }
+    
 .service-padding{
     padding-top: 40px;
 }
